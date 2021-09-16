@@ -7,12 +7,13 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
-h1 ,h2, p{
+h1 ,h2, h3, p{
     
     text-align: center;
 }
 h1{
     margin-top:100px ;
+     color: var(--first-color);
 }
 .btnPlaceHolder{
 display: flex;
@@ -38,4 +39,36 @@ justify-content:center;
     text-decoration: none;
     margin: 40px 0 0 20px ;
     box-shadow: var(--shadow);
+}
+.back{
+    display: block;
+    margin-top: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+}
+.textPlaceHolder{
+    display: flex;
+    justify-content: center;
+
+}
+span{
+    background-color: var(--second-color);
+    line-height: 30px;
+    border-radius: var(--radius);
+    margin: 10px 40px;
+    padding: 40px;
+    text-align: center;
+    color: var(--first-color);
+}
+.mail{
+text-decoration: none;
+display: block;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 100px;
+
 }
