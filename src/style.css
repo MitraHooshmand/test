@@ -1,0 +1,39 @@
+:root{
+    --first-color:#345B63;
+    --second-color:#D4ECDD;
+    --shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    --radius :10px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1 ,h2, p{
+    
+    text-align: center;
+}
+h1{
+    margin-top:100px ;
+}
+.btnPlaceHolder{
+display: flex;
+justify-content:center;
+}
+.contactMe{
+    padding: 10px 15px;
+    background-color: var(--first-color);
+    color: var(--second-color);
+    border-radius: var(--radius);
+    text-decoration: none;
+    margin: 40px 20px 0 0 ;
+
+    
+}
+.aboutMe{
+    
+    padding: 10px 15px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    border-radius: var(--radius);
+    text-decoration: none;
+    margin: 40px 0 0 20px ;
+}
