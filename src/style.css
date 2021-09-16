@@ -1,7 +1,7 @@
 :root{
     --first-color:#345B63;
     --second-color:#D4ECDD;
-    --shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    --shadow: 5px 5px 10px rgba(0,0,0,0.3);
     --radius :10px;
 }
 body{
@@ -25,6 +25,7 @@ justify-content:center;
     border-radius: var(--radius);
     text-decoration: none;
     margin: 40px 20px 0 0 ;
+    box-shadow: var(--shadow);
 
     
 }
@@ -36,4 +37,5 @@ justify-content:center;
     border-radius: var(--radius);
     text-decoration: none;
     margin: 40px 0 0 20px ;
+    box-shadow: var(--shadow);
 }
