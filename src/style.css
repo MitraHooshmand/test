@@ -19,26 +19,21 @@ h1{
 display: flex;
 justify-content:center;
 }
-.contactMe{
+.btnPlaceHolder a{
+     /* common CSS between two btn */
+    margin: 40px 20px ;
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    border-radius: var(--radius);
     padding: 10px 15px;
+}
+.contactMe{
     background-color: var(--first-color);
     color: var(--second-color);
-    border-radius: var(--radius);
-    text-decoration: none;
-    margin: 40px 20px 0 0 ;
-    box-shadow: var(--shadow);
-
-    
 }
 .aboutMe{
-    
-    padding: 10px 15px;
     background-color: var(--second-color);
-    color: var(--first-color);
-    border-radius: var(--radius);
-    text-decoration: none;
-    margin: 40px 0 0 20px ;
-    box-shadow: var(--shadow);
+    color: var(--first-color);   
 }
 .back{
     display: block;
@@ -70,5 +65,5 @@ display: block;
 margin: 0 auto;
 text-align: center;
 margin-bottom: 100px;
-
+color: var(--first-color);
 }
