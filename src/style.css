@@ -23,6 +23,7 @@ h2 {
 .aboutmeHeader{
     margin-top: 100px;
 }
+ 
 .btnPlaceHolder {
   display: flex;
   justify-content: center;
@@ -60,7 +61,7 @@ h2 {
   font-weight: bold;
   font-size: 14px;
 }
-.textPlaceHolder {
+/* .textPlaceHolder {
   display: flex;
   margin-top: 30px;
   justify-content: center;
@@ -74,7 +75,7 @@ h2 {
   padding: 40px;
   text-align: center;
   color: var(--first-color);
-}
+} */
 .mail {
   text-decoration: none;
   display: block;
@@ -114,4 +115,9 @@ position: fixed;
 top: 0;
 width: 100%;
 
+}
+.imgPlaceHolder div img{
+padding: 30px;
+border-radius: var(--radius);
+box-shadow: var(--shadow);
 }
