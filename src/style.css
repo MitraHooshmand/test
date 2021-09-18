@@ -116,8 +116,4 @@ top: 0;
 width: 100%;
 
 }
-.imgPlaceHolder div img{
-padding: 30px;
-border-radius: var(--radius);
-box-shadow: var(--shadow);
-}
+
