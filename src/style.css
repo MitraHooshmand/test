@@ -20,6 +20,9 @@ h1 {
 h2 {
   margin-top: 100px;
 }
+.aboutmeHeader{
+    margin-top: 100px;
+}
 .btnPlaceHolder {
   display: flex;
   justify-content: center;
@@ -106,3 +109,9 @@ h2 {
 
 }
 
+.navbar-customized{
+position: fixed;
+top: 0;
+width: 100%;
+
+}
