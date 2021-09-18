@@ -7,12 +7,12 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
-h1,
+/* h1,
 h2,
 h3,
 p {
   text-align: center;
-}
+} */
 h1 {
   color: var(--first-color);
   font-size: 48px;
@@ -20,10 +20,7 @@ h1 {
 h2 {
   margin-top: 100px;
 }
-.aboutmeHeader{
-    margin-top: 100px;
-}
- 
+
 .btnPlaceHolder {
   display: flex;
   justify-content: center;
@@ -37,30 +34,15 @@ h2 {
   border-radius: var(--radius);
   padding: 10px 15px;
 }
-.contactMe {
-  background-color: var(--first-color);
-  color: var(--second-color);
-}
-.contactMe:hover {
-    color: var(--second-color);
-}
+
 .aboutMe {
   background-color: var(--second-color);
   color: var(--first-color);
 }
 .aboutMe:hover {
-    color: var(--first-color);
+  color: var(--first-color);
 }
-.back {
-  display: block;
-  margin-top: 0 auto;
-  text-decoration: none;
-  text-align: center;
-  margin-top: 20px;
-  color: blue;
-  font-weight: bold;
-  font-size: 14px;
-}
+
 /* .textPlaceHolder {
   display: flex;
   margin-top: 30px;
@@ -89,12 +71,12 @@ h2 {
   border-radius: var(--radius);
   margin-bottom: 40px;
 }
-.contentText {
+/* .contentText {
   text-align: left;
   line-height: 1.5;
   font-size: 18px;
   padding: 18px 45px;
-}
+} */
 
 .btn_green {
   background-color: var(--first-color);
@@ -107,13 +89,13 @@ h2 {
   background-color: var(--second-color);
   border: 1px solid var(--first-color);
   color: var(--first-color);
-
 }
 
-.navbar-customized{
-position: fixed;
-top: 0;
-width: 100%;
-
+.navbar-customized {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-
+.aboutmeHeader{
+    margin-top: 4rem!important;
+}
