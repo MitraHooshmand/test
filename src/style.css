@@ -12,8 +12,12 @@ h1 ,h2, h3, p{
     text-align: center;
 }
 h1{
-    margin-top:100px ;
+    
      color: var(--first-color);
+     font-size: 48px;
+}
+h2{
+    margin-top:100px ;
 }
 .btnPlaceHolder{
 display: flex;
@@ -54,9 +58,9 @@ justify-content:center;
 
 .textPlaceHolder span{
     background-color: var(--second-color);
-    line-height: 30px;
+    line-height: 1.5;
     border-radius: var(--radius);
-    margin: 10px ;
+    margin: 20px ;
     padding: 40px;
     text-align: center;
     color: var(--first-color);
