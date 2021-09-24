@@ -50,3 +50,22 @@ h1 {
 .aboutmeHeader {
   margin-top: 4rem !important;
 }
+@media (max-width: 576px) {
+  h1,
+  h2 ,h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .subHeader {
+    /* display: ; */
+    display: none;
+  }
+  .contactMe {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .aboutMe {
+    font-size: 8px;
+    font-weight: bold;
+  }
+}
