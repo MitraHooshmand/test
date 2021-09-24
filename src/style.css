@@ -52,20 +52,28 @@ h1 {
 }
 @media (max-width: 576px) {
   h1,
-  h2 ,h3{
+  h2,
+  h3 {
     font-size: 18px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+  h4 {
+    font-size: 16px;
+    text-align: center;
     font-weight: bold;
   }
   .subHeader {
     /* display: ; */
     display: none;
   }
-  .contactMe {
+  .smallResolution {
     font-size: 8px;
     font-weight: bold;
-  }
-  .aboutMe {
-    font-size: 8px;
-    font-weight: bold;
+    display: block;
+    text-align: center;
   }
 }
