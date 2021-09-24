@@ -31,6 +31,7 @@ h1 {
   text-decoration: none;
   border-radius: var(--radius);
   padding: 10px 15px;
+  width: 30%;
 }
 .contactMe:hover {
   color: var(--second-color);
@@ -39,6 +40,7 @@ h1 {
 .aboutMe {
   display: block;
   text-align: center;
+  width: 30%;
 
   background-color: var(--second-color);
   color: var(--first-color);
