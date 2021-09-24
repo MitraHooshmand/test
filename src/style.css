@@ -23,6 +23,8 @@ h1 {
   margin: 40px 20px;
 }
 .contactMe {
+  display: block;
+  text-align: center;
   background-color: var(--first-color);
   color: var(--second-color);
   box-shadow: var(--shadow);
@@ -35,6 +37,9 @@ h1 {
   font-weight: bold;
 }
 .aboutMe {
+  display: block;
+  text-align: center;
+
   background-color: var(--second-color);
   color: var(--first-color);
   box-shadow: var(--shadow);
@@ -67,13 +72,12 @@ h1 {
     font-weight: bold;
   }
   .subHeader {
-    /* display: ; */
     display: none;
   }
   .smallResolution {
     font-size: 8px;
     font-weight: bold;
-    display: block;
-    text-align: center;
+    width: 60%;
+    margin: 0 auto;
   }
 }
